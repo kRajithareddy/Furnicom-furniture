@@ -1,0 +1,95 @@
+.header{
+	width:100%;
+	height:10%;
+	border-style:groove;
+	background-color:#AED6F1;
+	
+	
+}
+.header div{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	
+}
+img{
+	width:20%;
+	height:75px;
+}
+.header div p{
+	margin-top:5.3%;
+}
+.navigation{
+	width:100%;
+	height:30%;
+
+	border-style:groove;
+	
+	background-color:#F1C40F;
+}
+.navigation a button{
+	background-color:black;
+	color:white;
+	margin:1%;
+	height:78%;
+	padding:1%;
+	border-style:none;
+	border-radius:10px;
+}
+.body{
+	width:100%;
+	height:80%;
+	border-style:groove;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	
+	background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm21-smoke-bb-5_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c8347a73d6427dda5d03bd1100c39354);
+	color:white;
+}
+.body div{
+	width:21%;
+	height:90%;
+	margin:1%;
+	padding:1%;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	border-style:none;
+	background-color:white;
+	color:black;
+
+}
+.body img{
+	width: 100%;
+	height:100%;
+	opacity:1;
+	align-items:center;
+	padding-right:;
+
+}
+.footer{
+	width:100%;
+	height:50px;
+	border-style:groove;
+	background-color:#FF5733;
+	color:white;
+	 
+}
+@media only screen and (min-width:320px) and (max-width:767px){
+	.body {
+		flex-direction:column;
+	}
+	.body div{
+		width:95%;
+	}
+}
+@media only screen and (min-width:768px;) and (max-width:1023px){
+	.body{
+		flex-direction:column;
+	}
+}
+
+
+
+
